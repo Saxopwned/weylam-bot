@@ -9,8 +9,3 @@ page = requests.get(URL)
 # print(page.text)
 
 # with open("Leap_Slam.HTML", "w+", encoding="utf-8"):
-
-
-open("LeapSlam.HTML", "w+", encoding="utf-8")
-writeHTML.write(str(page.text))
-writeHTML.close
